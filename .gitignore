@@ -1,0 +1,54 @@
+
+# ==============================
+# SafeHer Android Project
+# ==============================
+
+# Gradle
+.gradle/
+build/
+**/build/
+.kotlin/
+
+# Local Android SDK configuration
+local.properties
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+
+# Generated Android files
+captures/
+.externalNativeBuild/
+.cxx/
+gen/
+bin/
+out/
+
+# APK and App Bundle files
+*.apk
+*.aab
+output-metadata.json
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.swp
+*~
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Signing credentials
+*.jks
+*.keystore
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Android profiling
+*.hprof

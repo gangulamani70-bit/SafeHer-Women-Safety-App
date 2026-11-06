@@ -1,0 +1,82 @@
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF7F7"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="22dp">
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="← Back"
+            android:backgroundTint="#FFFFFF"
+            android:textColor="#C62845"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Emergency SOS"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#C62845"
+            android:layout_marginTop="25dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="If you are in danger, use this feature to prepare an emergency message for your trusted contacts."
+            android:textSize="16sp"
+            android:textColor="#444444"
+            android:layout_marginTop="12dp"/>
+
+        <Button
+            android:id="@+id/btnGetLocation"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Get My Location"
+            android:textSize="16sp"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="#555555"
+            android:textColor="#FFFFFF"/>
+
+        <TextView
+            android:id="@+id/txtLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Location not retrieved yet."
+            android:textSize="15sp"
+            android:textColor="#333333"
+            android:padding="16dp"
+            android:layout_marginTop="15dp"
+            android:background="#FFE5E9"/>
+
+        <Button
+            android:id="@+id/btnSendSOS"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:text="SEND SOS ALERT"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#D71940"
+            android:layout_marginTop="35dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your SMS app will open for review. The message is not sent automatically."
+            android:textSize="13sp"
+            android:textColor="#666666"
+            android:gravity="center"
+            android:layout_marginTop="15dp"/>
+
+    </LinearLayout>
+</ScrollView>

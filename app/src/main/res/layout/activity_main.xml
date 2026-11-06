@@ -1,0 +1,46 @@
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="28dp"
+    android:background="#FFF7F7">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SafeHer"
+        android:textSize="38sp"
+        android:textStyle="bold"
+        android:textColor="#C62845"
+        android:layout_marginBottom="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Women Safety SOS Alert&#10;and Safe Route Helper"
+        android:textSize="18sp"
+        android:textColor="#444444"
+        android:gravity="center"
+        android:layout_marginBottom="35dp"/>
+
+    <Button
+        android:id="@+id/btnGetStarted"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="GET STARTED"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:backgroundTint="#C62845"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your safety, our priority."
+        android:textSize="14sp"
+        android:textColor="#777777"
+        android:layout_marginTop="25dp"/>
+
+</LinearLayout>

@@ -1,0 +1,120 @@
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF7F7"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SafeHer 🛡"
+            android:textColor="#C62845"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your safety, our priority."
+            android:textColor="#666666"
+            android:textSize="15sp"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Welcome!"
+            android:textColor="#222222"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How can we help you today?"
+            android:textColor="#666666"
+            android:textSize="15sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"/>
+
+        <Button
+            android:id="@+id/btnSOS"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:text="SOS EMERGENCY"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#C62845"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SAFETY SERVICES"
+            android:textColor="#C62845"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:layout_marginTop="28dp"
+            android:layout_marginBottom="12dp"/>
+
+        <Button
+            android:id="@+id/btnContacts"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:text="👥 Trusted Contacts"
+            android:textSize="17sp"
+            android:textColor="#333333"
+            android:backgroundTint="#FFFFFF"/>
+
+        <Button
+            android:id="@+id/btnLocation"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:text="📍 Share My Location"
+            android:textSize="17sp"
+            android:textColor="#333333"
+            android:backgroundTint="#FFFFFF"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/btnSafePlaces"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:text="🏥 Find Safe Places"
+            android:textSize="17sp"
+            android:textColor="#333333"
+            android:backgroundTint="#FFFFFF"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/btnHistory"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:text="📋 SOS Alert History"
+            android:textSize="17sp"
+            android:textColor="#333333"
+            android:backgroundTint="#FFFFFF"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Stay alert. Stay safe. Stay strong."
+            android:textColor="#888888"
+            android:textSize="13sp"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="15dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

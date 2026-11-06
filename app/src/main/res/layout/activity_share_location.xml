@@ -1,0 +1,82 @@
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF7F7"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="22dp">
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="← Back"
+            android:textColor="#C62845"
+            android:backgroundTint="#FFFFFF"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Share My Location"
+            android:textColor="#C62845"
+            android:textSize="27sp"
+            android:textStyle="bold"
+            android:layout_marginTop="25dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Find your available GPS location and share it with someone you trust."
+            android:textColor="#555555"
+            android:textSize="15sp"
+            android:layout_marginTop="12dp"/>
+
+        <TextView
+            android:id="@+id/txtLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your location has not been retrieved yet."
+            android:textColor="#333333"
+            android:textSize="15sp"
+            android:padding="18dp"
+            android:background="#FFE5E9"
+            android:layout_marginTop="30dp"/>
+
+        <Button
+            android:id="@+id/btnGetLocation"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:text="GET MY LOCATION"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:backgroundTint="#C62845"
+            android:layout_marginTop="25dp"/>
+
+        <Button
+            android:id="@+id/btnShareLocation"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:text="SHARE MY LOCATION"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:backgroundTint="#555555"
+            android:enabled="false"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="You choose which app and person receives your location. Location sharing is not continuous."
+            android:textColor="#777777"
+            android:textSize="13sp"
+            android:gravity="center"
+            android:layout_marginTop="25dp"/>
+
+    </LinearLayout>
+</ScrollView>
